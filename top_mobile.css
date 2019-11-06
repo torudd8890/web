@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Hannotate SC','筑紫A丸ゴシック','ＭＳ Ｐゴシック','MS PGothic','ヒラギノ角ゴシック';
+  text-align: center;
+}
+header {
+  /* background-color: white;
+  display: flex;  //アイコンの並べ方
+  padding: 5px 10px;  //上下　左
+  position: fixed;
+  width: 100%;
+  opacity: 0.9; */
+}
+
+/* ヘッダーボタンスタイル */
+.header_bot {
+  margin: 0;
+  padding: 15;
+  display: flex;
+  position: fixed;
+  justify-content: flex-end;
+  width: 100%;
+  background-color: white;
+  opacity: 0.9;
+}
+.botton_gal {
+  text-align: center;
+  padding: 10px;
+  width: 280px;
+}
+.botton_gal > a > img {
+  height: 60px;
+}
+.botton_pos {
+  text-align: center;
+  padding: 10px;
+  width: 170px;
+}
+.botton_pos > a > img {
+  height: 60px;
+}
+.fukidashi_gal {
+  width: 130px;
+  display: none;
+  margin: 0px;
+  padding: 10px;
+  right: 110px;
+  font-weight: bold;
+  font-size: 12pt;
+  color: rgb(90, 90, 90);
+  text-align: left;
+  background-color: white;
+  border-radius: 10px;
+  opacity: 0.9;
+  position: absolute;
+}
+.fukidashi_pos {
+  width: 130px;
+  display: none;
+  margin: 0px;
+  padding: 10px;
+  right: 2px;
+  font-weight: bold;
+  font-size: 12pt;
+  color: rgb(90, 90, 90);
+  text-align: left;
+  background-color: white;
+  border-radius: 10px;
+  opacity: 0.9;
+  position: absolute;
+}
+.top > img {
+  /* position: absolute; */
+  padding-top: 85px;
+  left: 0;
+  width: 100%;
+}
+.footer p {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 60px;
+  color: gray;
+  font-weight: bold;
+}
